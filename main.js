@@ -39,7 +39,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 	  else{
 		  
 		if(event_title.value.trim().length < 5){
-			alert('Event title should be atleast 5 characters long!');
+			alert('Event title should be at least 5 characters long!');
 			return;
 		}
 		
@@ -48,7 +48,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
 		}
 		
 		else{
-			alert('Event created successsfully!');
+			var form = document.getElementById("event_data");
+			alert('Event created successfully!');
 			form.submit();
 		}
 		
