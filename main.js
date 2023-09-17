@@ -49,7 +49,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 		
 		else{
 			alert('Event created successsfully!');
-			return;
+			form.submit();
 		}
 		
 	  }
