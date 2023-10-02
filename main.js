@@ -27,10 +27,9 @@ window.addEventListener('DOMContentLoaded', (event) => {
 	  var event_time = document.querySelector('input[name=event-time]').value;
 	  var event_location = document.querySelector('input[name=event-location]').value;
 	  var event_desc = document.getElementById('event-desc').value.trim();
-	  var event_attend_status = document.querySelector('#event-attend-status').value;
 	  
 	  if(event_name=="" || event_name==null || event_date=="" || event_date==null || event_time=="" || event_time==null 
-			|| event_location=="" || event_location==null || event_desc=="" || event_desc==null || event_attend_status=="" || event_attend_status==null){
+			|| event_location=="" || event_location==null || event_desc=="" || event_desc==null){
 				alert('Please fill in all the fields!');
 				return;
 				
